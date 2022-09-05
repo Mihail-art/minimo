@@ -1,0 +1,124 @@
+
+
+.info img {
+    padding-bottom: 61px;
+}
+
+.info .comment {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 20px;
+    margin: 0;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.share img {
+    width: auto;
+    padding: 0;
+    margin-right: 16px;
+}
+.share img:last-of-type {
+    margin-right: 0;
+}
+.share p {
+    margin: 0;
+    margin-right: 23px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.info__title {
+    margin-bottom: 41px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.news {
+    background-color: #f5f5f5;
+}
+
+.info {
+    padding-bottom: 0;
+}
+
+.comments__item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.comments img {
+    width: auto;
+    margin-right: 35px;
+}
+.content {
+    width: 100%;
+}
+.content__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #626262;
+}
+
+.content__description {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #898989;
+    margin-bottom: 27px;
+    line-height: 26px;
+}
+
+.comments__item .content a {
+    text-decoration: none;
+    color: #b4ad9e;
+}
+
+input[type=text] {
+    width: 100%;
+    border: 1px solid #c8c8c8;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 28px 33px;
+    outline: none;
+}
+
+::placeholder {
+    color: #c8c8c8;
+}
+
+.content__social .info__title, .content__social img {
+    margin: 0;
+}
+.content__social {
+    display: flex;
+    justify-content: end;
+}
+
+.content__social img {
+    margin-left: 16px;
+}
+
+.content__social img:first-of-type {
+    margin-left: 0;
+}
+
+.content__social .info__title {
+    margin-right: 38px;
+}
